@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Plus Jakarta Sans", sans-serif;
+}
+
+body {
+    width: 1440px;
+}
+
+
+/*-----------------------------------header-----------------------------------*/
+header {
+    width:1440px;
+    height: 86px;
+    flex-shrink: 0;
+    background: #EFF0F3;
+    box-shadow: 4px 6px 13px 0 rgba(215, 215, 215, 0.25);
+    flex-direction: row;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+}
+
+.logo_top {
+    margin: 26px 0 15px 95px;
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    gap: 50px;
+    margin-left: 300px;
+    padding:0;
+    color:#2B2C34;
+    font-size: 20px;
+    font-weight: 700;
+    text-transform: capitalize;
+}
+
+.buy_coffee {
+    width: 213px;
+    height: 44px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 4px;
+    background:#6246EA;
+    color: #FFFFFE;
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: capitalize;
+    margin: 22px 95px 20px 50px;
+    text-decoration: none;
+}
+
+/*-----------------------------------main - introduction_1-----------------------------------*/
+
+.introduction_1 {
+    width: 100%;
+    height: 900px;
+    background-color: #EFF0F3;
+    box-sizing: border-box;
+    display: flex;
+    gap: 116px;
+}
+
+.text_1 {
+    display: flex;
+    flex-direction: column;
+    gap:30px;
+    padding: 271px 0 284px 95px;
+}
+
+h1 {
+    color: #2B2C34;
+    font-size: 64px;
+    font-weight: 700;
+    text-transform: capitalize;
+    width: 617px;
+    height: 162px;
+}
+
+.text_1 p {
+    width: 664px;
+    height: 56px;
+    border-left: 3px solid #2B2C34;
+    padding-left: 9px;
+    color: #9A9494;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+form {
+    display: flex;
+    width: 609px;
+    height: 67px;
+    gap: 20px;
+}
+
+input {
+    width: 444px;
+    box-sizing: border-box;
+    display: flex;
+    font-size: 20px;
+    align-items: center;
+    padding: 21px 200px 21px 25px;
+    border-radius: 8px;
+    border: none;
+    background:#FFFFFE;
+    color: #C0C0C0;
+}
+
+.Subscribe_1 {
+    width: 145px;
+    height: 67px;
+    display: flex;
+    padding: 20px 23px 19px 23px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    background:#6246EA;
+    border: none;
+    color:#FFFFFE;
+    font-size: 20px;
+    font-weight: 700;
+    text-transform: capitalize;
+}
+
+.Subscribe_1:hover {
+    cursor: pointer;
+}
+
+.Picture_1 {
+    padding: 250px 95px 263px 0;
+}
+
+
+/*-----------------------------------main-browse_category_2-----------------------------------*/
