@@ -77,14 +77,6 @@ ul {
     padding: 271px 0 284px 95px;
 }
 
-
-#fon_size_arrow {
-    width: 6px;
-    height: 14px;
-    flex-shrink: 0;
-    background: #EFF0F3;
-}
-
 h1 {
     color: #2B2C34;
     font-size: 64px;
@@ -259,28 +251,28 @@ input::placeholder {
     background: #FFFFFE;
 }
 
-#fon_ize_css {
+#fon_size_css {
     width: 33px;
     height: 37px;
     flex-shrink: 0;
     padding: 12px 14px 11px 13px;
 }
 
-#fon_ize_Tailwind {
+#fon_size_Tailwind {
     width: 40px;
     height: 24px;
     flex-shrink: 0;
     padding: 18px 10px;
 }
 
-#fon_ize_Vue {
+#fon_size_Vue {
     width: 36px;
     height: 30.972px;
     flex-shrink: 0;
     padding: 15px 12px 14px 12px;
 }
 
-#fon_ize_React {
+#fon_size_React {
     width: 40px;
     height: 36px;
     flex-shrink: 0;
@@ -292,43 +284,38 @@ input::placeholder {
 
 .main_wrapper_3 {
     background: #FFFFFE;
+    padding: 0 94px;
 }
-
-.featured_article_1 {
-    margin: 0 94px;
-}
-
 
 .article {
     width: 1252px;
     height: 35px;
     display: flex;
-    justify-content: center;
+    justify-content: left;
     align-items: center;
     margin: 80px 0 30px 0;
     box-sizing: border-box;
 }
 
 .article h3 {
+    height: 35px;
     color: #2B2C34;
     font-size: 24px;
     font-weight: 700;
     text-transform: capitalize;
-    margin-right: 904px;
 }
 
+
 .article h4 {
+    color: #2B2C34;
     text-align: right;
     font-size: 20px;
-    font-style: normal;
     font-weight: 700;
-    line-height: normal;
     text-transform: capitalize;
-    color: #2B2C34;
 }
 
 .article svg {
-    margin: 7px 0 4px 12px;
+    margin: 9px 6px 2px 12px;
 }
 
 .article_cards {
@@ -401,8 +388,41 @@ input::placeholder {
     gap: 15px;
 }
 
-/*----------------------------------------------main-CSS-------------------------------------------------*/
+/*----------------------------------------------main-featured_article_1------------------------------------------------*/
+.distance1 h4 {
+    margin-left: 904px;
+}
 
 
+/*----------------------------------------------main-css_2------------------------------------------------*/
+.distance2 h4 {
+    margin-left: 1042px;
+}
+
+/*----------------------------------------------main-javascript_3-----------------------------------------*/
+.distance3 h4 {
+    margin-left: 974px;
+}
 
 
+/*----------------------------------------------main-react_js_4-------------------------------------------*/
+.distance4 h4 {
+    margin-left: 995px;
+}
+
+/*----------------------------------------------main-button---------------------------------------------*/
+.more_article {
+    display: flex;
+    padding: 20px 23px 19px 23px;
+    margin: 80px auto;
+    width: 165px;
+    height: 64px;
+    border: none;
+    border-radius: 8px;
+    background: #6246EA;
+    color: #FFFFFE;
+    font-size: 20px;
+    font-weight: 700;
+    cursor: pointer;
+    text-transform: capitalize;
+}
