@@ -550,17 +550,11 @@ footer ul {
     line-height: normal;
 }
 
-footer a {
-    text-decoration: none;
-    color: #2B2C34;
-}
-
 .icons {
     height: 30px;
     display: flex;
     align-items: center;
     gap: 30px;
-
 }
 
 /*------------------------------------------footer line--------------------------------------*/
