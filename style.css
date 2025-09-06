@@ -45,13 +45,14 @@ header ul {
     text-transform: capitalize;
 }
 
-header a {
+a {
+    display: flex;
     text-decoration: none;
     color: #2B2C34;
 }
 
 nav svg {
-    margin-right: 10px;
+    margin: auto 10px auto 0;
 }
 
 .buy_coffee {
@@ -555,8 +556,11 @@ footer a {
 }
 
 .icons {
+    height: 30px;
     display: flex;
+    align-items: center;
     gap: 30px;
+
 }
 
 /*------------------------------------------footer line--------------------------------------*/
