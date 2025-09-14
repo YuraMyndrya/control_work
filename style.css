@@ -444,6 +444,12 @@ button:hover {
     text-transform: capitalize;
 }
 
+.article_cards > div > div > img {
+    width: 57px;
+    height: 57px;
+    flex-shrink: 0;
+}
+
 /*-------------------------Subscribe For the lastest updates-------------------------------*/
 .subscribe_lastest_updates {
     width: 100%;
